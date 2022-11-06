@@ -1,13 +1,30 @@
 body {
     font-family: 'Roboto Mono', monospace;
-    /*background-color: #212121;*/
-    background-image: url("background.jpg");
+    background-image: url("res/background.jpg");
     color: white;
     padding: 16px;
 }
 
+a { /* all links */
+    color: white;
+    margin-left: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover { /* link hover */
+     text-decoration: underline;
+ }
+
+.header-img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+}
+
 .datetime {
-    margin-top: 100px;
+    margin-top: 4%;
     text-align: center;
 }
 
@@ -37,24 +54,22 @@ body {
     transform: scale(1.5);
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    margin-left: 16px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.cat {
+.main-image {
     padding: 30px;
     display: flex;
     justify-content: center;
-    margin: 150px auto auto;
-    background: rgba(56, 56, 56, 0.5);
+    margin: 5% auto auto;
+    background: rgba(56, 56, 56, 0.2);
     border-radius: 30px;
 
+}
+
+.foot{
+    max-width: 100px;
+    display: flex;
+    margin: 7% auto auto;
+    padding: 10px;
+    background: rgba(56, 56, 56, 0.8);
+    border-radius: 30px;
+    border: 3px #4a4949 solid;
 }
