@@ -1,7 +1,5 @@
 const dateElem = document.getElementsByClassName('date')[0];
-const timeElem    = document.getElementsByClassName('time')[0];
-
-const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const timeElem = document.getElementsByClassName('time')[0];
 
 const pad = function(num, len, sym) {
   return num.toString().padStart(len, sym);
@@ -21,4 +19,6 @@ const getTime = function() {
   dateElem.textContent = `${weekday}. ${day}.${month}.${year}`;
   timeElem.textContent = `${hour}:${minute}`;
 }
+
+window.onload = getTime();
 setInterval(getTime, 1000);
