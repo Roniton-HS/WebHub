@@ -1,5 +1,4 @@
 Browser Config: Google Chrome Theme + Home/newTab Page  
-This does not work for Firefox as you cant set a local file as you newTab page. I use Google Chrome with [New Tab Redirect](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna)  
   
 # Install  
 ## Theme:  
