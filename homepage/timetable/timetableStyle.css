@@ -1,15 +1,24 @@
 body{
   font-family: 'Roboto Mono', monospace;
-  background: url("background.jpg");
+  background: url("timetableBackground.jpg");
+  color: whitesmoke;
 }
+
+a { /* all links */
+  color: white;
+  margin-left: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 table {
   width: 90%;
-  border: 3px black solid;
   border-radius: 5px;
   border-collapse: separate;
   border-spacing: 0;
   margin: 50px auto auto;
-  background-color: rgba(102, 110, 145, 0.6);
+  background-color: rgba(56, 56, 56, 0.8);
+  border: 3px #4a4949 solid;
 }
 
 td {
@@ -30,9 +39,9 @@ th {
   max-width: 200px;
   margin: 7% auto auto;
   padding: 10px;
-  background-color: rgba(102, 110, 145, 0.6);
+  background-color: rgba(56, 56, 56, 0.8);
+  border: 3px #4a4949 solid;
   border-radius: 30px;
-  border: 3px black solid;
   text-align: center;
 }
 .time{
@@ -40,4 +49,14 @@ th {
 }
 .date{
   font-size: 30px;
+}
+
+.foot{
+  max-width: 38px;
+  display: flex;
+  margin: 7% auto auto;
+  padding: 10px;
+  background: rgba(56, 56, 56, 0.8);
+  border-radius: 30px;
+  border: 3px #4a4949 solid;
 }

@@ -21,7 +21,7 @@ const markActive = function() {
   const time    = `${hour}${minute}`;
 
   const target = document.getElementById(getTableCell(time, day));
-  if (target) target.style.backgroundColor = '#3e3f5e';
+  if (target) target.style.backgroundColor = '#6e1e10';
 }
 
 window.onload = markActive();

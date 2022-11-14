@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Mono', monospace;
-    background-image: url("res/background.jpg");
+    background-image: url("timetable/timetableBackground.jpg");
     color: white;
     padding: 16px;
 }
@@ -23,7 +23,7 @@ a:hover { /* link hover */
 }
 
 .datetime {
-    margin-top: 4%;
+    margin-top: 1%;
     text-align: center;
 }
 
@@ -57,18 +57,23 @@ a:hover { /* link hover */
     padding: 30px;
     display: flex;
     justify-content: center;
-    margin: 5% auto auto;
+    margin: 3% auto auto;
     background: rgba(56, 56, 56, 0.2);
     border-radius: 30px;
 
 }
 
 .foot{
-    max-width: 100px;
+    max-width: 8%;
     display: flex;
-    margin: 7% auto auto;
+    margin: auto auto auto 46%;
     padding: 10px;
     background: rgba(56, 56, 56, 0.8);
     border-radius: 30px;
     border: 3px #4a4949 solid;
+}
+.bottom-links{
+    display: flex;
+    align-content: start;
+    margin: auto;
 }
