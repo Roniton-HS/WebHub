@@ -13,7 +13,7 @@ const getTableCell = function(t, day) {
 }
 
 const markActive = function() {
-  const date  = new Date(2022,11,9,14,10);
+  const date  = new Date();
 
   const day     = weekdays[date.getDay()].toLowerCase();
   const hour    = pad(date.getHours(), 2, 0);
